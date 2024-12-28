@@ -3,9 +3,9 @@
 
 void InitializeMediaPipeline(int argc, char *argv[]) 
 {
-    printf("Initializing Argus Stream Engine from submodule...\n");
+    printf("Initializing Argus Media Pipeline...\n");
 
-    // Initialize Media Pipeline for Argus Stream Engine.
+    // Initialize Argus Media Pipeline for Argus Stream Engine.
 
-    printf("Argus Stream Engine from submodule is Online.\n");
+    printf("Argus Media Pipeline is Online.\n");
 }
