@@ -12,7 +12,7 @@ Argus Media Pipeline is the Argus Platform's library for stream management. It's
 
 2. Add the C library repository as a submodule(This clones the C library repository into the specified directory):
 ```
-git submodule add https://github.com/Max-Gabriel-Susman/argus-media-pipeline.git internal/stream/
+git submodule add https://github.com/Max-Gabriel-Susman/argus-media-pipeline.git internal/stream/libpipeline
 ```
 
 4. Initialize and update the submodule:

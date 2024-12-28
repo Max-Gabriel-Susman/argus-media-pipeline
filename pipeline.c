@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "pipeline.h"
 
-void InitializeMediaPipeline() 
+void InitializeMediaPipeline(int argc, char *argv[]) 
 {
     printf("Initializing Argus Stream Engine from submodule...\n");
 
