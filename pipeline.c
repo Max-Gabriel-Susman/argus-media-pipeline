@@ -1,14 +1,3 @@
-
-
-// void InitializeMediaPipeline(int argc, char *argv[]) 
-// {
-//     printf("Initializing Argus Media Pipeline...\n");
-
-//     // Initialize Argus Media Pipeline for Argus Stream Engine.
-
-//     printf("Argus Media Pipeline is Online.\n");
-// }
-
 #include <gst/gst.h>
 #include <stdio.h>
 #include "pipeline.h"
@@ -19,12 +8,11 @@
 
 void InitializeMediaPipeline (int argc, char *argv[])
 {
-    printf("Initializing Argus Media Pipeline...\n");
+    printf("Initializing Argus Media Pipeline v0.2.2...\n");
   GstElement *pipeline;
   GstBus *bus;
   GstMessage *msg;
 
-  /* Initialize GStreamer */
   gst_init (&argc, &argv);
 
   /* Build the pipeline */
@@ -34,7 +22,7 @@ void InitializeMediaPipeline (int argc, char *argv[])
       NULL);
 
   /* Start playing */
-   printf("Argus Media Pipeline is Online.\n");
+   printf("Argus Media Pipeline v0.2.2 is Online.\n");
   gst_element_set_state (pipeline, GST_STATE_PLAYING);
 
   /* Wait until error or EOS */
