@@ -11,3 +11,7 @@ build:
 
 run: 
 	./pipeline
+
+yolo:
+	make build
+	make run
